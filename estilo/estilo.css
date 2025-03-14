@@ -1,7 +1,6 @@
 *
 *{
     margin: auto;
-    padding: auto;
 }
 
 body
@@ -86,7 +85,7 @@ section
     width: 95%;
     height: 430px;
 }
-#dots 
+/* #dots 
 {
     width: 5%;
     display: flex;
@@ -107,7 +106,7 @@ section
 #dots span:hover 
 {
     background: #555;
-}
+} */
 
 #section1
 {
@@ -204,29 +203,89 @@ button
     cursor: pointer;
     text-align: center;
 }
-
+.section4
+{
+    background-color:saddlebrown;
+    height: 400px;
+}
 .container4
 {
-    background-color: rosybrown;
-    height: 400px;
-    display: grid;
-    grid-template-columns: 25% 50% 25%;
-    grid-template-rows: 50px 50px 300px 50px;
-    grid-template-areas:
-        "a b c";
+    display: flex;
+    gap: 5px;
 }
-.aside
+article
 {
-    background-color:khaki;
-    grid-area: a;
+    background-color:blueviolet;
+    width: 70%;
+    height: 300px;
+    margin-top: 1rem;
 }
-.aside2
+#header3
 {
-    background-color: lightseagreen;
-    grid-area: b;
+    background-color: crimson;
+    width: 95%;
+    height: 20px;
 }
-.aside3
+#div7
 {
-    background-color: mediumvioletred;
-    grid-area: c;
+    background-color: lightblue;
+    width: 95%;
+    height: 110px;
+    margin-top: 1rem;
+}
+.article2
+{
+    background-color: blueviolet;
+    width: 25%;
+    height: 300px;
+}
+#header4
+{
+    background-color: green;
+    width: 95%;
+    height: 20px;
+}
+.nav1
+{
+    background-color: aqua;
+    width: 90%;
+    height: 200px;
+    margin-top: 1rem;
+}
+footer
+{
+    background-color: darksalmon;
+    height: 200px;
+}
+.div8
+{
+    display: flex;
+    gap: 10px;
+}
+.article3
+{
+    background-color: azure;
+    width: 70%;
+    height: 150px;
+}
+.div9
+{
+    background-color: blue;
+    width: 26%;
+    height: 150px;
+    margin-top: 1rem;
+}
+
+.footer1
+{
+    background-color: grey;
+    height: 100px;
+    display: flex;
+    gap: 1px;
+}
+#div10
+{
+    background-color: indigo;
+    width: 15%;
+    height: 30px;
 }
